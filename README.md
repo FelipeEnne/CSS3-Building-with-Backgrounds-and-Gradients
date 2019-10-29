@@ -24,7 +24,6 @@
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
-* [Commit Summary](#commit-summary)
 
 
 <!-- ABOUT THE PROJECT -->
