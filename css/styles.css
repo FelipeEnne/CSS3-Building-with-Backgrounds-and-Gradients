@@ -35,15 +35,6 @@ body {
   background-image: linear-gradient(gray, #585858, gray);
 }
 
-.global-nav li:hover {
-  background-image: linear-gradient(#585858, gray, #585858);
-}
-
-.global-nav li:first-child {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
 .global-nav li: last-child {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -69,10 +60,6 @@ body {
 div.main-subtext img {
   height: 31px;
   margin-top: 20px;
-}
-
-div.main-subtext img:hover {
-  border-bottom: 1px solid white;
 }
 
 nav.aside-nav img {
@@ -141,4 +128,17 @@ div.footer-right img {
 div.copyright {
   float: left;
   margin-top: 20px;
+}
+
+.global-nav li:hover {
+  background-image: linear-gradient(#585858, gray, #585858);
+}
+
+.global-nav li:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+div.main-subtext img:hover {
+  border-bottom: 1px solid white;
 }
