@@ -32,11 +32,11 @@ body {
     border-left: 0.5px #0000008a solid;
     padding: 6px 36px;
     color: white;
-    background-image: linear-gradient(grey, #585858, grey);
+    background-image: linear-gradient(gray, #585858, gray);
 }
 
 .global-nav li:hover{
-	background-image: linear-gradient(#585858, grey, #585858);
+	background-image: linear-gradient(#585858, gray, #585858);
 }
 
 .global-nav li:first-child {
@@ -52,7 +52,7 @@ body {
 .global-nav input{
 	border: none;
     color: white;
-    background-image: linear-gradient(grey, #585858, grey);
+    background-image: linear-gradient(gray, #585858, gray);
     border-radius: 10px;
     margin-top: 4px;
     width: 127px;
@@ -89,4 +89,57 @@ body {
 .aside-nav li{
 	list-style: none;
     padding: 2px;
+}
+
+
+
+footer{
+	margin-right: 20px;
+	margin-left: 20px;
+    color: #6e6e6e;
+    font-size: .7em;
+    line-height: 1.2;
+}
+
+footer a{
+	text-decoration: none;
+	color: #08c;
+}
+footer section{
+	display: flex;
+}
+
+.footer-left{
+	float: left;
+	padding-top: 10px;
+	width: 49%;
+}
+.footer-right{
+	display: flex;
+	float: right;
+	width: 49%;
+}
+
+.footer-right ul{
+	display: flex;
+	padding: 0;
+}
+
+.footer-right li{
+	list-style: none;
+    border-right: 1px solid #8080805c;
+    padding-right: 5px;
+	padding-left: 5px;
+}
+
+.footer-right img{
+	padding-left: 3px;
+    padding-top: 9px;
+    height: 16px;
+}
+
+
+
+.copyright{
+	float: left;
 }
