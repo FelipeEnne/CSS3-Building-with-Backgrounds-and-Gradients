@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.main-background {
+  background-image: url(../assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 95%;
+  position: relative;
+  padding-top: 80px;
+  height: 450px;
+}
+
+.global-nav {
+  font-size: 13px;
+}
+
+.global-nav img {
+  height: 20px;
+}
+
+.global-nav ul {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.global-nav li {
+  list-style: none;
+  border-left: 0.5px #0000008a solid;
+  padding: 6px 36px;
+  color: white;
+  background-image: linear-gradient(gray, #585858, gray);
+}
+
+.global-nav li: last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.global-nav input {
+  border: none;
+  color: white;
+  background-image: linear-gradient(gray, #585858, gray);
+  border-radius: 10px;
+  margin-top: 4px;
+  width: 127px;
+}
+
+.text-main {
+  text-align: center;
+}
+
+.main-title {
+  padding-top: 30px;
+}
+
+div.main-subtext img {
+  height: 31px;
+  margin-top: 20px;
+}
+
+nav.aside-nav img {
+  width: 100%;
+}
+
+nav.aside-nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+nav.aside-nav li {
+  list-style: none;
+  padding: 2px;
+}
+
+footer {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #6e6e6e;
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+footer section {
+  display: flex;
+}
+
+div.footer-left {
+  float: left;
+  padding-top: 10px;
+  width: 49%;
+}
+
+div.footer-right {
+  display: flex;
+  float: right;
+  width: 49%;
+}
+
+div.footer-right ul {
+  display: flex;
+  padding: 0;
+}
+
+div.footer-right li {
+  list-style: none;
+  border-right: 1px solid #8080805c;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+div.footer-right img {
+  padding-left: 3px;
+  padding-top: 9px;
+  height: 16px;
+}
+
+div.copyright {
+  float: left;
+  margin-top: 20px;
+}
+
+.global-nav li:hover {
+  background-image: linear-gradient(#585858, gray, #585858);
+}
+
+.global-nav li:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+div.main-subtext img:hover {
+  border-bottom: 1px solid white;
+}
